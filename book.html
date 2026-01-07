@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Reservation - Francesco Juarez Guitar Customization</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Francesco Juarez Guitars</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="book.html" class="active">Book a Reservation</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Book a Consultation</h1>
+            <p>Let's discuss your project and bring your guitar vision to life</p>
+        </div>
+    </section>
+
+    <section class="booking-form">
+        <div class="container">
+            <form action="#" method="POST" class="consultation-form">
+                <div class="form-group">
+                    <label for="full-name">Full Name *</label>
+                    <input type="text" id="full-name" name="full-name" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="company">Company or Band (Optional)</label>
+                    <input type="text" id="company" name="company">
+                </div>
+
+                <div class="form-group">
+                    <label for="guitar-model">Guitar Make & Model *</label>
+                    <input type="text" id="guitar-model" name="guitar-model" placeholder="e.g., Fender Stratocaster, Gibson Les Paul" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="project-description">Project Description *</label>
+                    <textarea id="project-description" name="project-description" rows="6" placeholder="Please describe the modifications or work you'd like done..." required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="preferred-date">Preferred Consultation Date *</label>
+                    <input type="date" id="preferred-date" name="preferred-date" required>
+                </div>
+
+                <div class="form-submit">
+                    <button type="submit" class="btn btn-primary">Submit Request</button>
+                </div>
+
+                <p class="form-note">* Required fields. You'll receive a confirmation email within 24 hours.</p>
+            </form>
+
+            <div class="contact-info-box">
+                <h3>Prefer to call?</h3>
+                <p>You can reach us directly at:</p>
+                <p class="contact-detail"><strong>Phone:</strong> (555) 748-3921</p>
+                <p class="contact-detail"><strong>Email:</strong> contact@francescojuarezguitars.com</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Phone: (555) 748-3921</p>
+                    <p>Email: contact@francescojuarezguitars.com</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Hours</h4>
+                    <p>By Appointment Only</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Francesco Juarez Guitar Customization. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
